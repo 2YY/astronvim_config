@@ -9,5 +9,21 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { 'rose-pine/neovim', name = 'rose-pine' }
+  {
+    'folke/todo-comments.nvim',
+    dependencies = { 'nvim-lua/plenary.nvim' },
+    event = 'User AstroFile',
+    cmd = { 'TodoQuickFix' },
+    -- TODO: エラーが出る
+    -- keys = {
+    --   { '<leader>T', '<cmd>TodoTelescope<cr>', desc = 'TODOリストをTelescopeで開く' }
+    -- }
+  },
+  {
+    'Pocco81/auto-save.nvim',
+    lazy = false
+  },
+  -- TODO: タブで展開したい (キーマップ)
+  'mattn/emmet-vim',
+  { 'rose-pine/neovim', name = 'rose-pine' },
 }

@@ -15,6 +15,7 @@ return {
       end,
       desc = "Pick to close",
     },
+    ["m"] = { "s", desc = "消してINSERTモード切替" },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
@@ -25,4 +26,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    ["m"] = { "s", desc = "消してINSERTモード切替" },
+  }
 }

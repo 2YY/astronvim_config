@@ -22,9 +22,10 @@ return {
   {
     {
       "hrsh7th/nvim-cmp",
-      opts = function(config)
-        config.mapping["<Tab>"] = nil
-        return config
+      opts = function(_, opts)
+        local cmp = require "cmp"
+        opts.mapping["<Tab>"] = vim.NIL
+        return opts
       end,
     },
   },

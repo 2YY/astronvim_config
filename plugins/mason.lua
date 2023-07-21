@@ -13,7 +13,6 @@ return {
         "dockerls",
         "docker_compose_language_service",
         "eslint",
-        "emmet_ls",
         "graphql",
         "html",
         "jsonls",

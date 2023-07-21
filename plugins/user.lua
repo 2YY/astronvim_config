@@ -42,5 +42,9 @@ return {
     'mattn/emmet-vim',
     lazy = false
   },
-  { 'rose-pine/neovim', name = 'rose-pine' },
+  {
+    'olimorris/onedarkpro.nvim',
+    name = 'onedark',
+    priority = 1000
+  }
 }

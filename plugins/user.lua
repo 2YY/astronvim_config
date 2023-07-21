@@ -10,16 +10,6 @@ return {
   --   end,
   -- },
   {
-    'folke/todo-comments.nvim',
-    dependencies = { 'nvim-lua/plenary.nvim' },
-    event = 'User AstroFile',
-    cmd = { 'TodoQuickFix' },
-    -- TODO: エラーが出る
-    -- keys = {
-    --   { '<leader>T', '<cmd>TodoTelescope<cr>', desc = 'TODOリストをTelescopeで開く' }
-    -- }
-  },
-  {
     "hrsh7th/nvim-cmp",
     opts = function(_, opts)
       local cmp = require "cmp"

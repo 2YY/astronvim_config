@@ -20,19 +20,17 @@ return {
     -- }
   },
   {
-    {
-      "hrsh7th/nvim-cmp",
-      opts = function(_, opts)
-        local cmp = require "cmp"
-        cmp.setup {
-          completion = {
-            completeopt = 'menu,menuone,noinsert'
-          }
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      local cmp = require "cmp"
+      cmp.setup {
+        completion = {
+          completeopt = 'menu,menuone,noinsert'
         }
-        opts.mapping["<Tab>"] = vim.NIL
-        return opts
-      end,
-    },
+      }
+      opts.mapping["<Tab>"] = vim.NIL
+      return opts
+    end,
   },
   {
     'Pocco81/auto-save.nvim',
@@ -48,3 +46,4 @@ return {
     priority = 1000
   }
 }
+

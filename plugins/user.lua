@@ -23,10 +23,6 @@ return {
     end,
   },
   {
-    'Pocco81/auto-save.nvim',
-    lazy = false
-  },
-  {
     'mattn/emmet-vim',
     lazy = false
   },
@@ -34,6 +30,10 @@ return {
     'olimorris/onedarkpro.nvim',
     name = 'onedark',
     priority = 1000
-  }
+  },
+  {
+    'Pocco81/auto-save.nvim',
+    lazy = false
+  },
 }
 

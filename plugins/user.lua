@@ -38,7 +38,6 @@ return {
     'Pocco81/auto-save.nvim',
     lazy = false
   },
-  -- TODO: タブで展開したい (キーマップ)
   {
     'mattn/emmet-vim',
     lazy = false

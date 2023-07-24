@@ -18,7 +18,6 @@ return {
         "jsonls",
         "lua_ls",
         "rust_analyzer",
-        "stylelint_lsp",
         "tailwindcss",
         "tsserver",
       })

@@ -1,4 +1,8 @@
-# AstroNvim User Configuration Example
+# AstroNvim User Configuration
+
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/2YY/astronvim_config/main?style=for-the-badge&logo=github&logoColor=FFFFFF&color=6962AD)
+![GitHub repo size](https://img.shields.io/github/repo-size/2YY/astronvim_config?style=for-the-badge&logo=dropbox&logoColor=FFFFFF&color=83C0C1)
+![GitHub License](https://img.shields.io/github/license/2YY/astronvim_config?style=for-the-badge&logo=powerpages&logoColor=FFFFFF&color=96E9C6)
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 

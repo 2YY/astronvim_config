@@ -34,6 +34,7 @@ return {
       return opts
     end,
   },
+  { "junegunn/vim-easy-align", event = "User AstroFile" },
   {
     'kylechui/nvim-surround',
       version = '*',

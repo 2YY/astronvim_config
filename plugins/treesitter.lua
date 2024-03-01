@@ -10,7 +10,6 @@ return {
       "html",
       "javascript",
       "json",
-      "rust",
       "scss",
       "tsx"
     })

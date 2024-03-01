@@ -13,7 +13,6 @@ return {
         "docker_compose_language_service",
         "eslint",
         "graphql",
-        "html",
         "lua_ls",
         "tailwindcss",
       })

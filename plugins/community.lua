@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.toml" },

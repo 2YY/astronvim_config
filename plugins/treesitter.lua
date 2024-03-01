@@ -9,7 +9,6 @@ return {
       "graphql",
       "html",
       "javascript",
-      "json",
       "scss",
       "tsx"
     })

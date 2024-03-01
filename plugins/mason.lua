@@ -15,7 +15,6 @@ return {
         "eslint",
         "graphql",
         "html",
-        "jsonls",
         "lua_ls",
         "tailwindcss",
       })

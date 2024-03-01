@@ -12,7 +12,6 @@ return {
       "json",
       "rust",
       "scss",
-      "typescript",
       "tsx"
     })
   end,

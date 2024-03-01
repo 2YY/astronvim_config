@@ -9,8 +9,6 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "angularls",
         "cssmodules_ls",
-        "dockerls",
-        "docker_compose_language_service",
         "eslint",
         "graphql",
         "lua_ls",

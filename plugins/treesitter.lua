@@ -6,9 +6,7 @@ return {
       "c_sharp",
       "lua",
       "graphql",
-      "javascript",
       "scss",
-      "tsx"
     })
   end,
 }

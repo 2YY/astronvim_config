@@ -27,10 +27,5 @@ return {
     'mattn/emmet-vim',
     lazy = false
   },
-  {
-    'olimorris/onedarkpro.nvim',
-    name = 'onedark',
-    priority = 1000
-  },
 }
 

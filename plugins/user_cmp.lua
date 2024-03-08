@@ -1,5 +1,28 @@
 return {
   { import = "astrocommunity.completion.copilot-lua" },
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "User AstroFile",
+    opts = {
+      suggestion = { auto_trigger = true, debounce = 150 }
+      filetypes = {
+        yaml = false,
+        markdown = false,
+        help = false,
+        gitcommit = false,
+        gitrebase = false,
+        hgcommit = false,
+        svn = false,
+        cvs = false,
+        css = false,
+        scss = false,
+        sass = false,
+        stylus = false
+        ["."] = false,
+      }
+    },
+  },
   { "mattn/emmet-vim", event = "User AstroFile" },
   { "dcampos/cmp-emmet-vim", event = "User AstroFile" },
   {

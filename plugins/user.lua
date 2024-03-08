@@ -24,14 +24,6 @@ return {
   },
   { "junegunn/vim-easy-align", event = "User AstroFile" },
   {
-    'kylechui/nvim-surround',
-      version = '*',
-      event = 'VeryLazy',
-      config = function()
-        require('nvim-surround').setup({})
-      end
-  },
-  {
     'mattn/emmet-vim',
     lazy = false
   },

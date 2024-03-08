@@ -5,7 +5,7 @@ return {
     cmd = "Copilot",
     event = "User AstroFile",
     opts = {
-      suggestion = { auto_trigger = true, debounce = 150 }
+      suggestion = { auto_trigger = true, debounce = 150 },
       filetypes = {
         yaml = false,
         markdown = false,
@@ -15,10 +15,12 @@ return {
         hgcommit = false,
         svn = false,
         cvs = false,
+        html = false,
+        tsx = false,
         css = false,
         scss = false,
         sass = false,
-        stylus = false
+        stylus = false,
         ["."] = false,
       }
     },

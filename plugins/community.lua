@@ -6,6 +6,9 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.neogen" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },

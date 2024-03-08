@@ -32,9 +32,5 @@ return {
     name = 'onedark',
     priority = 1000
   },
-  {
-    'Pocco81/auto-save.nvim',
-    lazy = false
-  },
 }
 

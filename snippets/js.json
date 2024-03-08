@@ -1,0 +1,7 @@
+{
+  "setup": {
+    "prefix": ["log"],
+    "body": ["console.log($1)"],
+    "description": "Output message to WEB console."
+  }
+}

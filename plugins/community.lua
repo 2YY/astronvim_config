@@ -20,5 +20,4 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.project.neoconf-nvim" },
 }

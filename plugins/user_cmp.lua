@@ -16,11 +16,12 @@ return {
         }
       }
 
-      -- NOTE: Tab キーで emmet 展開したいので、emmet のソースを一番優先度高くしています。
+      -- NOTE: Tab キーで展開するために最適な優先度を設定しています。
+      -- NOTE: emmet 使うファイルでは emmet を使い、さもなければスニペットか LSP を使う。
       opts.sources = cmp.config.sources {
+        { name = "luasnip", priority = 1002 },
         { name = "emmet_vim", priority = 1001 },
         { name = "nvim_lsp", priority = 1000 },
-        { name = "luasnip", priority = 750 },
         { name = "buffer", priority = 500 },
         { name = "path", priority = 250 },
       }

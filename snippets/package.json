@@ -6,16 +6,16 @@
   "contributes": {
     "snippets": [
       {
-        "language": "js",
-        "path": "./js.json"
+        "language": "javascript",
+        "path": "./javascript.json"
       },
       {
-        "language": "ts",
-        "path": "./ts.json"
+        "language": "typescript",
+        "path": "./typescript.json"
       },
       {
-        "language": "tsx",
-        "path": "./tsx.json"
+        "language": "typescriptreact",
+        "path": "./typescriptreact.json"
       }
     ]
   }

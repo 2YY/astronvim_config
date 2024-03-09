@@ -1,5 +1,4 @@
 return {
-  { import = "astrocommunity.completion.copilot-lua" },
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",

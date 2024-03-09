@@ -14,33 +14,34 @@ return {
     end,
     event = "VeryLazy",
     keys = {
-      { "<leader>ccb", ":CopilotChatBuffer ", desc = "CopilotChat - Chat with current buffer" },
-      { "<leader>cce", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code" },
-      { "<leader>cct", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
+      { "<leader>''c", ":CopilotChat ", desc = "CopilotChat - Chat" },
+      { "<leader>''b", ":CopilotChatBuffer ", desc = "CopilotChat - Chat with current buffer" },
+      { "<leader>''e", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code" },
+      { "<leader>''t", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
       {
-        "<leader>ccT",
+        "<leader>''T",
         "<cmd>CopilotChatVsplitToggle<cr>",
         desc = "CopilotChat - Toggle Vsplit", -- Toggle vertical split
       },
       {
-        "<leader>ccv",
+        "<leader>''v",
         ":CopilotChatVisual ",
         mode = "x",
         desc = "CopilotChat - Open in vertical split",
       },
       {
-        "<leader>ccx",
+        "<leader>''x",
         ":CopilotChatInPlace<cr>",
         mode = "x",
         desc = "CopilotChat - Run in-place code",
       },
       {
-        "<leader>ccf",
+        "<leader>''f",
         "<cmd>CopilotChatFixDiagnostic<cr>", -- Get a fix for the diagnostic message under the cursor.
         desc = "CopilotChat - Fix diagnostic",
       },
       {
-        "<leader>ccr",
+        "<leader>''r",
         "<cmd>CopilotChatReset<cr>", -- Reset chat history and clear buffer.
         desc = "CopilotChat - Reset chat history and clear buffer",
       }

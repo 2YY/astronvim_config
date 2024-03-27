@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim"},
   { import = "astrocommunity.editing-support.treesj"},
   { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.motion.marks-nvim" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },

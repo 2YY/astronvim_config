@@ -1,6 +1,5 @@
 return {
   { "mattn/emmet-vim", event = "User AstroFile" },
-  { "dcampos/cmp-emmet-vim", event = "User AstroFile" },
   {
     "hrsh7th/nvim-cmp",
     dependencies = { "zbirenbaum/copilot.lua" },
@@ -19,7 +18,6 @@ return {
       -- NOTE: emmet 使うファイルでは emmet を使い、さもなければスニペットか LSP を使う。
       opts.sources = cmp.config.sources {
         { name = "luasnip", priority = 1002 },
-        { name = "emmet_vim", priority = 1001 },
         { name = "nvim_lsp", priority = 1000 },
         { name = "buffer", priority = 500 },
         { name = "path", priority = 250 },

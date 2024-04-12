@@ -31,7 +31,7 @@ return {
       end
       if not opts.mapping then opts.mapping = {} end
 
-      opts.mapping["<Tab>"] = cmp.mapping(function(fallback)
+      opts.mapping["<CR>"] = cmp.mapping(function(fallback)
         -- NOTE: If no completion is selected, insert the first one in the list.
         -- NOTE: If a completion is selected, insert this one.
         if cmp.visible() then

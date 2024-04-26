@@ -31,21 +31,7 @@ return {
       end
       if not opts.mapping then opts.mapping = {} end
 
-      opts.mapping["<CR>"] = cmp.mapping(function(fallback)
-        -- NOTE: If no completion is selected, insert the first one in the list.
-        -- NOTE: If a completion is selected, insert this one.
-        if cmp.visible() then
-          local entry = cmp.get_selected_entry()
-          if not entry then cmp.select_next_item { behavior = cmp.SelectBehavior.Select } end
-          cmp.confirm()
-        elseif luasnip.expand_or_jumpable() then
-          luasnip.expand_or_jump()
-        elseif has_words_before() then
-          cmp.complete()
-        else
-          fallback()
-        end
-      end, { "i", "s" })
+      opts.mapping["<Tab>"] = vim.NIL
 
       return opts
     end,

@@ -7,15 +7,27 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./javascript.json"
+        "path": "./log.json"
       },
       {
         "language": "typescript",
-        "path": "./typescript.json"
+        "path": "./log.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./typescriptreact.json"
+        "path": "./log.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./iteach.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./iteach.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./iteach.json"
       }
     ]
   }

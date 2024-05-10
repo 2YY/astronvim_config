@@ -1,4 +1,6 @@
--- customize mason plugins
+-- Customize Mason plugins
+
+---@type LazySpec
 return {
   -- use mason-lspconfig to configure LSP installations
   {
@@ -6,9 +8,10 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
-      opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "eslint",
         "graphql",
+        -- add more arguments for adding more language servers
       })
     end,
   },
@@ -18,11 +21,9 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
-      opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "cspell",
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "eslint_d",
-        "prettier",
-        "rustfmt"
+        -- add more arguments for adding more null-ls sources
       })
     end,
   },
@@ -31,8 +32,8 @@ return {
     -- overrides `require("mason-nvim-dap").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
-      opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "python",
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
+        -- add more arguments for adding more debuggers
       })
     end,
   },

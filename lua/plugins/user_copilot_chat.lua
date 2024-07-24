@@ -15,7 +15,7 @@ return {
       { "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
     },
     opts = {
-      show_help = "yes",
+      show_help = true,
       debug = false,
       model= "gpt-4-0125-preview"
     },

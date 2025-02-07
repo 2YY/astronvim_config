@@ -80,5 +80,4 @@ return {
       )
     end,
   },
-  { "junegunn/vim-easy-align", event = "User AstroFile" },
 }

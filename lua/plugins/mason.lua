@@ -11,6 +11,8 @@ return {
       opts.ensure_installed = {
         "eslint",
         "graphql",
+        "vtsls",
+        "tailwindcss",
         -- add more arguments for adding more language servers
       }
     end,

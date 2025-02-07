@@ -17,7 +17,6 @@ return {
     opts = {
       show_help = true,
       debug = false,
-      model= "gpt-4-0125-preview",
     },
     build = function()
       vim.notify("Please update the remote plugins by running ':UpdateRemotePlugins', then restart Neovim.")

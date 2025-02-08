@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.motion.marks-nvim" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.elixir-phoenix" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.tailwindcss" },
